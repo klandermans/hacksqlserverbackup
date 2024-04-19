@@ -21,3 +21,5 @@ The .bak backup file is the standard backup format of SQL Server, widely prevale
 #### https://github.com/KyleBruene/mtf
 mtf - a Microsoft Tape Format reader (and future writer?)
 
+## References
+- https://docs.fileformat.com/database/mdf/
