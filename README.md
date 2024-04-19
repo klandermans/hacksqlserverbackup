@@ -16,11 +16,11 @@ Numerous applications are capable of generating BAK files, including SQL Server 
 
 The internal structure of a BAK file is not universally documented; however, it is widely speculated to adhere to the Microsoft Tape Format (MTF). Although detailed specifications of MTF are accessible, they presuppose a foundational understanding of storage management operations, tape drives, and file systems, thereby providing insights into the BAK file's composition and operation.
 
-## MDF (Master Data File): 
-The MDF file is the primary data file for a SQL Server database. It contains the actual data and schema objects, including tables, indexes, stored procedures, and so on. When you create a new database in SQL Server, it typically creates an MDF file to store its data.
+## .mdf file 
+The MDF (Master Data File) file is the primary data file for a SQL Server database. It contains the actual data and schema objects, including tables, indexes, stored procedures, and so on. When you create a new database in SQL Server, it typically creates an MDF file to store its data.
 
-## LDF (Log Data File): 
-The LDF file is the transaction log file for a SQL Server database. It records all transactions and modifications made to the database, allowing for rollback or recovery in case of system failure or data corruption. The log file ensures the ACID (Atomicity, Consistency, Isolation, Durability) properties of database transactions.
+## .LDF file 
+The LDF (Log Data File) file is the transaction log file for a SQL Server database. It records all transactions and modifications made to the database, allowing for rollback or recovery in case of system failure or data corruption. The log file ensures the ACID (Atomicity, Consistency, Isolation, Durability) properties of database transactions.
 
 
 ## Tsql examples (SQL Server)
@@ -31,8 +31,6 @@ BACKUP DATABASE YourDatabaseName TO DISK = 'C:\Path\To\Your\BackupFile.bak'
 ```
 RESTORE DATABASE YourRestoredDatabaseName FROM DISK = 'C:\Path\To\Your\BackupFile.bak'
 ```
-
-
 
 ## Research
 
