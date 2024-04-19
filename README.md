@@ -9,12 +9,12 @@ BAK2SQLite is an open-source project aiming to decrypt and convert SQL Server ba
 The .bak backup file is the standard backup format of SQL Server, widely prevalent on on-premises Windows machines. Unfortunately, this format is not directly usable in Azure and lacks compatibility with regular data science tools. This project aims to overcome these limitations by offering an alternative approach to handling SQL Server backups.
 
 ## Tsql examples (SQL Server)
-```BACKUP DATABASE YourDatabaseName
-TO DISK = 'C:\Path\To\Your\BackupFile.bak'
+```
+BACKUP DATABASE YourDatabaseName TO DISK = 'C:\Path\To\Your\BackupFile.bak'
 ```
 
-```RESTORE DATABASE YourRestoredDatabaseName
-FROM DISK = 'C:\Path\To\Your\BackupFile.bak'
+```
+RESTORE DATABASE YourRestoredDatabaseName FROM DISK = 'C:\Path\To\Your\BackupFile.bak'
 ```
 
 
