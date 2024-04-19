@@ -16,14 +16,8 @@ The .bak backup file is the standard backup format of SQL Server, widely prevale
 
 - **Easy Integration**: The project provides clear documentation and simple command-line interfaces for seamless integration into existing data science and ETL workflows.
 
-## Requirements
+## Research
 
-- Python 3.x
-- SQLite
+### https://github.com/KyleBruene/mtf
+mtf - a Microsoft Tape Format reader (and future writer?)
 
-## Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/bak2sqlite.git
