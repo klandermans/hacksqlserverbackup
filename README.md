@@ -8,6 +8,15 @@ BAK2SQLite is an open-source project aiming to decrypt and convert SQL Server ba
 
 The .bak backup file is the standard backup format of SQL Server, widely prevalent on on-premises Windows machines. Unfortunately, this format is not directly usable in Azure and lacks compatibility with regular data science tools. This project aims to overcome these limitations by offering an alternative approach to handling SQL Server backups.
 
+## .bak file
+
+A BAK file, identified by its .bak extension, typically serves as a backup file utilized by various software tools to preserve data backups. Specifically within the realm of databases, a BAK file is integral to Microsoft SQL Server's backup mechanism, housing comprehensive database contents. This format ensures that all database data and associated files are securely stored, enabling retrieval in scenarios where the database may face corruption or other issues. For added safety, these backup files can be replicated and indexed on alternative servers.
+
+Numerous applications are capable of generating BAK files, including SQL Server Management Studio, Transact-SQL, and Windows PowerShell.
+
+The internal structure of a BAK file is not universally documented; however, it is widely speculated to adhere to the Microsoft Tape Format (MTF). Although detailed specifications of MTF are accessible, they presuppose a foundational understanding of storage management operations, tape drives, and file systems, thereby providing insights into the BAK file's composition and operation.
+
+
 ## Tsql examples (SQL Server)
 ```
 BACKUP DATABASE YourDatabaseName TO DISK = 'C:\Path\To\Your\BackupFile.bak'
