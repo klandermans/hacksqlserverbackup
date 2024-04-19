@@ -2,7 +2,7 @@
 
 ## Description
 
-BAK2SQLite is an open-source project aiming to decrypt and convert SQL Server backup files (.bak) into a SQLite database. This tool provides a streamlined solution for transforming cumbersome SQL Server backups into a more accessible and compatible format, enabling further analysis and processing without reliance on closed Microsoft technologies.
+This is an open-source project aiming to decrypt and convert SQL Server backup files (.bak) into a SQLite database. This tool provides a streamlined solution for transforming cumbersome SQL Server backups into a more accessible and compatible format, enabling further analysis and processing without reliance on closed Microsoft technologies.
 
 ## Background
 
