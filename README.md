@@ -37,6 +37,7 @@ RESTORE DATABASE YourRestoredDatabaseName FROM DISK = 'C:\Path\To\Your\BackupFil
 #### https://github.com/KyleBruene/mtf
 mtf - a Microsoft Tape Format reader (and future writer?)
 https://pypi.org/project/bcpandas/
+https://github.com/titan550/bcpy
 
 ## References
 - https://docs.fileformat.com/database/mdf/
